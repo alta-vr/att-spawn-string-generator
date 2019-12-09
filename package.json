@@ -1,0 +1,25 @@
+{
+  "name": "att-spawn-string-generator",
+  "version": "1.0.0",
+  "description": "Generates spawn strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts && node index.js"
+  },
+  "engines": {
+    "npm": ">=5",
+    "node": ">=8.15.1"
+  },
+  "keywords": [
+    "att",
+    "township"
+  ],
+  "author": "Joel van de Vorstenbosch",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "bitwise": "^2.0.4",
+    "ieee754": "^1.1.13"
+  }
+}
